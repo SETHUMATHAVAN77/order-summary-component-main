@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+img{
+  width: 375px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+:root{
+  --clr-pale-blue:hsl(225, 100%, 94%);
+  --clr-bright-blue:hsl(245, 75%, 52%);
+  --clr-very-pale-blue:hsl(225, 100%, 98%);
+  --clr-desaturated-blue:hsl(224, 23%, 55%);
+  --clr-dark-blue:hsl(223, 47%, 23%);
+}
+html{
+  font-size: 16px;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+.card-section{
+  background-color: var(--clr-pale-blue);
+  margin: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+.card{
+  width: 375px;
+  padding: 1rem 3rem;
+  margin: -1.8rem;
+  margin-left: 35%;
+  background-color: #ffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+.card-title{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.card-description{
+  text-align: center;
+  color: var(--clr-dark-blue);
+}
+.card-inside{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:var(--clr-pale-blue);
+  gap: 1rem;
+  border-radius: 10px;
+
+}
+.music{
+  width: 50px;
+  margin-top: 0.8rem;
+}
+.music-description{
+  margin-left: 1rem;
+}
+.btn-blue{
+  width: 60%;
+  color: #ffff;
+  background-color: var(--clr-bright-blue);
+  border: 2px solid var(--clr-bright-blue);
+  border-radius: 5px;
+}
+.end{
+  color: var(--clr-pale-blue);
+}
+.bg{
+  margin: auto;
+}
